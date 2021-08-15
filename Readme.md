@@ -3,6 +3,7 @@
 Based on: https://docs.aws.amazon.com/lambda/latest/dg/golang-handler.html
 and: https://docs.aws.amazon.com/lambda/latest/dg/lambda-golang.html
 
+## Go
 Add github.com/aws/aws-lambda-go/lambda as a dependency  
 Build the package with: `GOOS=linux go build main.go` so that it compiles for linux.  
 The main.go file needs to have 644 permissions.  
